@@ -1,0 +1,239 @@
+
+body
+{
+margin:0;
+padding:0;
+}
+
+/*Start nav-bar*/
+.bg-light{
+background-color: #333 !important;
+padding: 5px;
+}
+
+.bg-light h4{
+color: #fff;
+margin: 0;
+
+
+}
+.bg-light .interior{
+margin: 0;
+margin-left: 40px;
+font-size: 14px;
+}
+.bg-light .active {
+color: #00acc1 !important;
+font-size:16px !important;
+}  
+
+.navbar-nav .nav-link{
+font-size: 16px;
+text-transform: uppercase;
+margin-left: 10px;
+color: #fff !important;
+
+}
+
+.navbar-nav .nav-link:hover{
+color: gold !important;
+border: 1px solid gold;
+border-radius: 5px;
+
+}
+.navbar-light .navbar-toggler-icon{
+color: #fff !important;
+background-color: #fff !important;
+}
+
+
+
+
+
+/*start website index*/
+
+.logo img{
+margin-top: 100px;
+width: 300px;            
+}
+
+.galery{
+margin:40px;
+}
+
+.carousel{
+margin-bottom: 50px;
+}
+
+
+.carousel .carousel-item{
+border: 2px solid gold;
+border-radius: 5px;
+}
+
+/*end website index*/
+
+
+
+
+
+
+/*start footer*/
+
+.white{
+color: #fff !important;
+}
+.gold{
+color: gold;
+}
+
+.footer {
+padding: 100px 0;
+color:  gold;
+background-color: #212529;
+}
+@media (min-width: 768px) { 
+.footer .section-links{
+
+margin-left: 50px;
+}
+}
+
+.footer .site-info h2{
+font-size: 35px;
+margin-bottom: 25px;
+
+}
+
+.footer .card{
+border: none;
+}
+.footer .site-info span:first-of-type{
+color: gold;
+font-weight: bold;
+
+}
+.footer .site-info span:last-of-type{
+color: gold;
+}
+.footer .site-info p{
+line-height: 1.5;
+color:  gold;
+}
+
+.footer .helpful-links h2,
+.footer .contcat p
+{
+font-size: 22px;
+color: gold;
+margin-bottom: 40px;
+}
+
+@media(max-width: 768px){
+
+.footer .helpful-links h2, .footer .contcat h2{
+margin-top: 20px;
+margin-bottom: 20px;
+
+}}
+
+.footer .helpful-links ul li:before{
+font-family: 'FontAwesome';
+content: '\f054';
+display: inline-block;
+margin-right: 5px;
+font-size: 12px;
+color: gold;
+
+}
+.footer .helpful-links a{
+color: gold;
+}
+.footer .helpful-links a:hover{
+color: gold !important;
+}
+
+.footer .contact p{
+margin-bottom: 30px;
+
+}
+
+
+.footer .about-me {
+margin-right: 15px;
+margin-bottom: 0;
+color: gold;
+font-family: "Comic Sans MS", "Comic Sans", cursive;
+background-color: #333 !important;
+}
+
+.footer .about-me .card{
+
+background-color: #333 !important;
+}
+.footer  .about-me img{
+height: 100px;
+width: 100px;
+/*margin-right: 10px;*/
+border: 2px solid gold;
+}
+
+.footer  .about-me  .img-about{
+display: inline-flex;
+margin-top: 10px;
+padding: 10px;
+border-top: 2px solid gold;
+
+}
+
+/*.footer   .about-me  .img-about p{
+margin-right: 3px;
+margin-top: 20px;
+}*/
+
+.footer  .about-me .text {
+padding: 10px;
+margin-top: -25px;
+}
+
+
+
+@media(max-width: 768px){
+.footer .contact p{
+margin-bottom: 5px;
+font-size: 18px;
+}
+
+
+.form-control {
+color: red !important;
+}
+
+.btn-primary  {
+background-color:  gold !important;
+}
+
+}
+.copy-right {
+border-top: 1px solid  gold;
+padding: 20px;
+color: gold;
+background-color: #333;
+}
+.copy-right ul{
+margin: 0;
+}
+.copy-right ul li{
+display: inline-block;
+}
+
+.copy-right ul li a{
+color: gold;
+display: inline-block;
+margin-left: 20px;
+font-size: 20px;
+}
+
+
+/*end footer*/
+
